@@ -1,4 +1,4 @@
- function validate()
+  function validate()
  {
      var username=document.getElementById("user").value;
      var password=document.getElementById("pass").value;
@@ -7,7 +7,7 @@
         {
          alert("Login Successfully")
         }
-     
+        
      else{
          alert("Login Failed Please Enter Valid Username & Password ! !");
      }
